@@ -1,12 +1,8 @@
 import { createStore } from 'vuex';
+import wallet from '@/store/wallet/index';
 
 export default createStore({
-  state: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
   modules: {
+    wallet,
   },
 });
